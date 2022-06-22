@@ -1,0 +1,40 @@
+@use "../utilities/variables" as *;
+
+.navItem {
+  font-size: $font-xs;
+  line-height: 40px;
+  color: var(--primary-contrastText);
+
+  &:hover {
+    color: var(--primary-light);
+  }
+}
+.title {
+  display: block;
+  font-size: $font-lg;
+  color: var(--text-primary);
+  line-height: 35px;
+  font-weight: 700;
+}
+.titleItem {
+  font-size: $font-xs;
+  line-height: 21px;
+  color: var(--text-primary);
+  padding: 20px 0 0 0;
+  display: inline-block;
+}
+.subTitle {
+  display: block;
+  font-size: $font-md;
+  color: var(--text-primary);
+  line-height: 21px;
+  margin: 16px 0 0 0;
+  font-weight: 700;
+}
+.description {
+  font-size: $font-sm;
+  color: var(--text-primary);
+  line-height: 25px;
+  margin: 18px 0 0 0;
+  max-width: $screen-lg;
+}

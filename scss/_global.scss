@@ -1,0 +1,28 @@
+:root {
+  --background: #121212;
+  --background-paper: #222327;
+
+  --primary: #4594ff;
+  --primary-light: #5695ed;
+  --primary-dark: #1973f0;
+  --primary-contrastText: #ffffff;
+
+  --secondary: #FFFFFF;
+  --secondary-contrastText: #000000;
+
+  --text-primary: #ffffff;
+  --text-primary-dark: #aaaaaa;
+  --text-secondary: #181717;
+
+  --warning: #f5c304;
+}
+
+.ditails {
+  color: var(--text-primary-dark);
+}
+.highlight {
+  background-color: var(--warning);
+  color: var(--text-secondary);
+}
+
+
