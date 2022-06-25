@@ -1,0 +1,42 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+.container {
+  @include Flex();
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: var(--background-default);
+  z-index: 5;
+
+  div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: $border-full;
+    background-color: transparent;
+    border: 2px solid var(--background-contrastText);
+    animation: ripple 1s ease-out infinite;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.2;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+  }
+}
