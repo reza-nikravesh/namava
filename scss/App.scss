@@ -1,8 +1,10 @@
-// utilities
-@import "./utilities/index";
 // base
 @import "./base/index";
+// utilities
+@import "./utilities/index";
 // components
 @import "./components/index";
+// layouts
+@import "./layouts/index";
 // global styles
-@import "global";
+@import "./global";

@@ -1,0 +1,55 @@
+@use "../utilities/mixins" as *;
+.container {
+  @include Flex(flex-start, flex-start, column);
+  gap: 1.5rem;
+  max-width: 250px;
+  position: fixed;
+  width: 80%;
+  min-height: 100vh;
+  background-color: var(--background-paper);
+  color: var(--background-contrastText);
+  z-index: 2;
+  padding: 1.5rem 1rem;
+  transform: translateX(100%);
+  transition: all 0.5s ease;
+
+  &.open {
+    transform: translate(0%);
+    transition: all 0.5s;
+  }
+
+  .header,
+  .main,
+  .footer {
+    @include Flex(flex-start, flex-start);
+    z-index: 50;
+    width: 100%;
+  }
+  .header {
+    @include Flex(flex-start);
+    gap: 0.5rem;
+  }
+  .main {
+    flex-grow: 1;
+    ul {
+      width: 100%;
+      li {
+        width: 100%;
+        margin-top: 1rem;
+        a {
+          @include Flex(flex-start);
+          gap: 0.8rem;
+        }
+      }
+    }
+  }
+  .toggle {
+    cursor: pointer;
+  }
+
+  // media queries
+
+  @include screen-lg {
+    display: none;
+  }
+}

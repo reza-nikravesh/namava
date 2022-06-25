@@ -1,0 +1,20 @@
+.header {
+  position: fixed;
+  padding: 0.8rem 1.6rem;
+  top: 0;
+  width: 100%;
+  transition: all 0.7s;
+  background-color: var(--background-default);
+  z-index: 1;
+}
+.header-start {
+  background-color: rgba(18, 18, 18, 0);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(18, 18, 18, 1),
+    rgba(18, 18, 18, 0)
+  );
+}
+.header-hide {
+  top: -100px;
+}

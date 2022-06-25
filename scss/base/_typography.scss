@@ -4,7 +4,7 @@
   font-size: $font-xs;
   line-height: 40px;
   color: var(--primary-contrastText);
-
+  cursor: pointer;
   &:hover {
     color: var(--primary-light);
   }

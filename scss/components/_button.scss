@@ -7,7 +7,7 @@
   font-size: $font-xs;
   font-weight: 300;
   cursor: pointer;
-  padding: 0.8rem;
+  padding: 0.2rem 0.4rem;
 }
 .button {
   background-color: var(--secondary);
@@ -20,7 +20,7 @@
 .button-outlined {
   background-color: transparent;
   color: var(--secondary);
-  border: 2px solid var(--secondary);
+  border: 1px solid var(--secondary);
   &:hover {
     background-color: var(--secondary);
     color: var(--secondary-contrastText);
