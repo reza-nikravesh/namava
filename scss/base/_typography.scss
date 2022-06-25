@@ -1,6 +1,7 @@
 @use "../utilities/variables" as *;
 
-.navItem {
+.navItem,
+.footerLink {
   font-size: $font-xs;
   line-height: 40px;
   color: var(--primary-contrastText);

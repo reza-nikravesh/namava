@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import classes from "../scss/modules/Sidebar.module.scss";
-import { navItems } from "../constants/navItems";
+import { navItems } from "../constants/links";
 import Link from "next/link";
 import uniqid from "uniqid";
 import { FiMenu } from "react-icons/fi";

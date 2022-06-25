@@ -4,7 +4,7 @@ import { FiMenu } from "react-icons/fi";
 import { RiSearchLine } from "react-icons/ri";
 import Namava from "../public/namava.svg";
 import Link from "next/link";
-import { navItems } from "../constants/navItems";
+import { navItems } from "../constants/links";
 import uniqid from "uniqid";
 
 const Navbar = () => {

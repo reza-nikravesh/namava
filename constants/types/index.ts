@@ -5,3 +5,7 @@ export interface navItem {
   path: string;
   icon: IconType;
 }
+export interface FooterLink {
+  name: string;
+  path: string;
+}

@@ -3,7 +3,7 @@ import { BsCollectionPlayFill, BsFillCameraReelsFill } from "react-icons/bs";
 import { FaChild } from "react-icons/fa";
 import { GiPopcorn } from "react-icons/gi";
 import { RiFilmFill } from "react-icons/ri";
-import { navItem } from "./types";
+import { FooterLink, navItem } from "./types";
 
 export const navItems: navItem[] = [
   {
@@ -39,6 +39,48 @@ export const navItems: navItem[] = [
   {
     name: "نماوا مگ",
     icon: RiFilmFill,
+    path: "",
+  },
+];
+export const footerLinks: FooterLink[] = [
+  {
+    name: "درباره نماوا",
+    path: "",
+  },
+  {
+    name: "تماس با ما",
+    path: "",
+  },
+  {
+    name: "نماوا مگ",
+    path: "",
+  },
+  {
+    name: "دباره ما",
+    path: "",
+  },
+  {
+    name: "کارت هدیه",
+    path: "",
+  },
+  {
+    name: "قوانین و مقررات",
+    path: "",
+  },
+  {
+    name: "سوالات متداول",
+    path: "",
+  },
+  {
+    name: "خرید اشتراک",
+    path: "",
+  },
+  {
+    name: "اپلیکیشن ها",
+    path: "",
+  },
+  {
+    name: "شرایط مصرف اینترنت",
     path: "",
   },
 ];
