@@ -1,0 +1,42 @@
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+.container {
+  @include Flex();
+  position: fixed;
+  z-index: 6;
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-paper);
+  opacity: 0.9;
+  color: var(--text-primary);
+
+  .alert {
+    @include Flex(flex-start, center, column);
+    gap: 1rem;
+    text-align: center;
+    border-radius: $border-xs;
+    width: 80%;
+    max-width: 280px;
+    background-color: var(--background-paper-light);
+    color: var(--background-contrastText);
+    padding: 1rem 2rem 2rem 2rem;
+    .title {
+      width: 100%;
+      padding: 0 1rem 1rem;
+      border-bottom: 1px solid var(--text-primary);
+    }
+    & > svg {
+      fill: var(--error);
+    }
+    & > button {
+      padding: 0.5rem 1rem;
+      width: 40%;
+      max-width: 130px;
+    }
+  }
+  @include screen-md {
+    .alert {
+      max-width: 500px;
+    }
+  }
+}

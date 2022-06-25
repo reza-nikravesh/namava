@@ -38,3 +38,9 @@
   margin: 18px 0 0 0;
   max-width: $screen-lg;
 }
+
+@for $i from 1 through 9 {
+  .f-w-#{$i*100} {
+    font-weight: $i * 100;
+  }
+}

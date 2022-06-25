@@ -2,6 +2,8 @@
 :root {
   --background-default: #121212;
   --background-paper: #222327;
+  --background-paper-light: #37383E;
+  
   --background-contrastText: #efefef;
 
   --primary: #4594ff;
@@ -17,6 +19,7 @@
   --text-secondary: #181717;
 
   --warning: #f5c304;
+  --error: #D95C5C;
 }
 .navbar {
   .nav-btn-login-md {
