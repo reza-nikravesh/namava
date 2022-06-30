@@ -1,11 +1,11 @@
 @use "../utilities/mixins" as *;
-.container {
+.footer {
   @include Flex($flexDirection: column);
   gap: 1rem;
   background-color: var(--background-paper);
   padding: 1rem 2rem;
   color: var(--background-contrastText);
-  .links {
+  .footer__links {
     max-width: 280px;
     li {
       display: inline-block;
@@ -15,7 +15,7 @@
   & > P {
     color: var(--text-primary-dark);
   }
-  .socials {
+  .footer__socials {
     @include Flex();
     gap: 1rem;
   }

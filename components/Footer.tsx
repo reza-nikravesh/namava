@@ -7,8 +7,8 @@ import { BsTelegram } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className={classes.container}>
-      <ul className={classes.links}>
+    <div className="footer">
+      <ul className="footer__links">
         {footerLinks.map((item) => (
           <Link href={item.path} key={uniqid()}>
             <a>
@@ -17,7 +17,7 @@ const Footer = () => {
           </Link>
         ))}
       </ul>
-      <div className={classes.socials}>
+      <div className="footer__socials">
         <AiFillTwitterCircle className="ic-md footerLink" />
         <BsTelegram className="ic-md footerLink" />
         <AiFillInstagram className="ic-md footerLink" />

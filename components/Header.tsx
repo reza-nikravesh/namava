@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
+import Sidebar from "./Sidebar";
 
 const Header = () => {
   const [show, setShow] = useState<boolean>(true);
@@ -24,6 +25,7 @@ const Header = () => {
       }`}
     >
       <Navbar />
+      <Sidebar/>
     </div>
   );
 };

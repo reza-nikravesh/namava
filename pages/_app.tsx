@@ -10,9 +10,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>
-      <Header />
+      {/* <Header /> */}
       <Component {...pageProps} />
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
