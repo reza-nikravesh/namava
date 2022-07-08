@@ -1,8 +1,8 @@
 // font size
-$font-xs: 0.75rem;
-$font-sm: 0.88rem;
-$font-md: 1rem;
-$font-lg: 1.25rem;
+$font-xs: 1.2rem;
+$font-sm: 1.4rem;
+$font-md: 1.8rem;
+$font-lg: 2rem;
 // $font-xs: 12px;
 // $font-sm: 14px;
 // $font-md: 18px;
@@ -12,7 +12,7 @@ $font-lg: 1.25rem;
 $screen-sm: 300px;
 $screen-md: 481px;
 $screen-lg: 769px;
-$screen-xl: 1201px;
+$screen-xl: 1201px; // breakpoints also defined in constants/styles.ts
 
 //border raduis
 $border-xs: 6px;
